@@ -8,7 +8,7 @@
     }
 
     header('Content-type: text/html');
-
+    
     $in1 = new IN1();
     echo $in1->WhoAmI() . '<br><br>';
 
