@@ -16,7 +16,7 @@
 
     function __autoload ($class_name) {
         // Convert namespace to full file path
-        $class = 'Classes/' . str_replace('\\', '/', $class_name) . 'php';
+        $class = 'Classes/' . str_replace('\\', '/', $class_name) . '.php';
 
         require_once $class;
     }
